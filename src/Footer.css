@@ -1,0 +1,46 @@
+footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: black; 
+  transition: color 0.3s ease; 
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid blue; /* Line under the words */
+    transition: color 0.3s ease, border-color 0.3s ease;
+  
+  
+}
+
+.footer-section ul li a:hover {
+  color: blue; 
+  text-decoration: underline; 
+  
+}
+.footer-section {
+  text-align: center;
+}
